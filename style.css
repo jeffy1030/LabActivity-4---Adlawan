@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+
+body h1{
+    text-align: center;
+}   
+
+.pokemon-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+
+.card{
+    width: 170px;
+    height: 270px;
+    box-shadow: 1px 1px 7px #000004f1;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid blue;
+}
+
+.card:hover{
+    box-shadow: 0px 1px 25px #000004f1;
+    transition: 0.5;
+}
+
+.card img{
+    width: 100%;
+    padding: 4px;
+}
+
+.card ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.pokemon-id{
+    font-size: 13px;
+    padding: 5px;
+}
+
+.pokemon-name{
+    color: black;
+    font-weight: bold;
+    padding: 6px;
+    color: blue;
+    font-size: larger;
+}
+
+.grass{
+    color: white;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    background-color: green;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.psychic{
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    background-color: #ff227a;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.water{
+    background-color: #0080ff;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.fire{
+    background-color: #d52100;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.bug{
+    background-color: #83901a;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.flying{
+    background-color: #556dff;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.normal{
+    background-color: #797964;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.poison{
+    background-color: #88447a;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.electric{
+    background-color: #c90;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.ground{
+    background-color: #bf9926;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.fairy{
+    background-color: #e76de7;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.fighting{
+    background-color: #a84d3d;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.rock{
+    background-color: #a59249;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.steel{
+    background-color: #8e8ea4;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.ice{
+    background-color: #0af;
+    font-weight: bold; 
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.ghost{
+    background-color: #5454b3;
+    font-weight: bold; 
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
+
+.dark{
+    background-color: #573e31;
+    font-weight: bold;
+    width: 66px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+}
